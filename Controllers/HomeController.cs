@@ -17,7 +17,7 @@ namespace Website.Controllers
             var model = manager.GetAll();
             return PartialView(model);
         }
-
+        //testuj
         [OutputCache(Duration = 0)]
         public ActionResult Create()
         {
